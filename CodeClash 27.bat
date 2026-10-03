@@ -16,7 +16,7 @@ if "%pwd%"=="201320122011" (
     echo Password correct. Starting client...
     echo.
 
-    set "JAVA_HOME=%LOCALAPPDATA%\CodeClash27\jdk"
+    set "JAVA_HOME=%LOCALAPPDATA%\CodeClash27\jdk\jdk-25.0.4.1+1"
     set "PATH=%JAVA_HOME%\bin;%PATH%"
 
     if not exist "%JAVA_HOME%\bin\java.exe" (
